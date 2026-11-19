@@ -6,5 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
+	<ItemGroup>
+		<Compile Remove="ConsoleNumberApp\**;MauiApp1\**;MauiNumberApp\**;WinFormsApp1\**;WpfApp1\**" />
+		<EmbeddedResource Remove="ConsoleNumberApp\**;MauiApp1\**;MauiNumberApp\**;WinFormsApp1\**;WpfApp1\**" />
+		<None Remove="ConsoleNumberApp\**;MauiApp1\**;MauiNumberApp\**;WinFormsApp1\**;WpfApp1\**" />
+	</ItemGroup>
 </Project>
